@@ -30,7 +30,7 @@ SELECT * FROM researchers
     INNER JOIN research_proposals ON researchers.res_id = research_proposals.researcher_id;
 
 
---  LEFT OUTER JOIN BETWEEN 2 TABLES
+-- LEFT OUTER JOIN BETWEEN 2 TABLES
 -- This query performs a left outer join between the researchers and research_proposals tables on the res_id column.
 -- The result includes all columns from the researchers table, as well as the matching columns from the research_proposals table.
 -- Records from the researchers table that do not have a matching record in the research_proposals table will be NULL.
